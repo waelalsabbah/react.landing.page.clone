@@ -1,11 +1,14 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
 }
-body {
-  margin: 0;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  max-width: 1298px 60px;
+}
+.font-bold {
+  font-weight: 700;
+}
+.flex {
+  display: flex;
 }
